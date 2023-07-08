@@ -1,4 +1,4 @@
-package org.example;
+package org.example.hw_1_calc;
 
 import java.util.InputMismatchException;
 import java.util.Scanner;

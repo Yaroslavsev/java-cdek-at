@@ -25,7 +25,7 @@ public class ChartTest {
 
     @BeforeClass
     public void setUp() {
-        System.setProperty("webdriver.chrome.driver", "C:\\Users\\Anton\\Desktop\\Java AT IBS Training center\\chromedriver.exe");
+        System.setProperty("webdriver.chrome.driver", "C:\\Users\\Anton\\Desktop\\Java AT IBS Training center\\chromedriver-win64\\chromedriver.exe");
         driver = new ChromeDriver();
         baseUrl = "http://www.highcharts.com";
         driver.manage().timeouts().implicitlyWait(3, TimeUnit.SECONDS);
